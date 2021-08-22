@@ -1,6 +1,6 @@
 
 
--- создание таблицы
+-- СЃРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
 
 CREATE TABLE furm (
 
@@ -28,19 +28,19 @@ dt date
 -----------------------------------------------
 
 
-alter table add( имя поля тип поля);
-alter table drop имя поля;
+alter table add( РёРјСЏ РїРѕР»СЏ С‚РёРї РїРѕР»СЏ);
+alter table drop РёРјСЏ РїРѕР»СЏ;
 
 -----------------------------------------------
 
-create table phonesnum(        --- создание таблицы
+create table phonesnum(        --- СЃРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
 
 numphone varchar2 (50) PRIMARY KEY,
 firstname varchar2 (50),
 lastname varchar2 (50)
 );
 
-alter table phonesnum add(   -- добавление новых колонок
+alter table phonesnum add(   -- РґРѕР±Р°РІР»РµРЅРёРµ РЅРѕРІС‹С… РєРѕР»РѕРЅРѕРє
 
 birthday date,
 chcount number,
@@ -48,9 +48,7 @@ sex varchar2 (10)
 
 );
 
-drop table phonesnum; -- удаление таблицы
-
-
+drop table phonesnum; -- СѓРґР°Р»РµРЅРёРµ С‚Р°Р±Р»РёС†С‹
 
 
 
