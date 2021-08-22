@@ -16,3 +16,5 @@ BEGIN
 a:=12;
  DBMS_OUTPUT.PUT_LINE(a);
 end;
+
+привет
